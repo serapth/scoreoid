@@ -1,0 +1,25 @@
+<div class="cloudPanel">
+    <h4>Set Cloud Data</h4>
+    <textarea cols=40 rows=10 id=cloudData></textarea><br />
+    <input type=button id="buttonSetCloudData" value="Set Cloud Data" />
+    <br />
+    <h4>Set Cloud Data</h4>
+    <input type=button id="buttonGetCloudData" value="Get Cloud Data" />
+    <h4>Dot notation cloud data example</h4>
+    You can add values using JSON "." notation.  In this example we have a object with the key "monster"
+    stored in the cloud.  You can update or add individual values using the form key.attribute<br /><Br/>
+    <input type=button id="buttonGetMonster" value="Get Monster from the cloud" /><br />
+    <input type=button id="buttonDeleteMonster" value="Delete Monster from the cloud" /><br />
+    Attribute:
+    <select id="comboMonsterAttribute">
+        <option>monster.maxHitPoints</option>
+        <option>monster.currentHitPoints</option>
+        <option>monster.alignment</option>
+        <option>monster.numAttacks</option>
+        <option>monster.isHostile</option>
+        <option>monster.isDead</option>
+    </select>
+    &nbsp;New Value:<input type=text id="monsterNewValue" />
+    <input type=button id="buttonUpdateMonster" value="Update Monster" /><br />
+    <br />
+</div>

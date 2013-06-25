@@ -1,0 +1,12 @@
+<div class="scorePanel">
+
+    <h4>Get high scores</h4>
+    <input type="button" id="buttonGetHighScores" value="Get High Scores" /><br />
+    <input type="button" id="buttonGetHighScoresHighToLow" value="Get High Scores -- High to Low" /><br />
+    <input type="button" id="buttonGetHighScoresLowToHigh" value="Get High Scores -- Low to High" /><br />
+    <input type="button" id="buttonGetAverageScore" value="Get Average Score" /><br />
+
+    <h4>Create a new high score</h4>
+    Player Name:<select id="playersCombo"></select> &nbsp; &nbsp; Score:<input type="text" value="" id="score" /><input type="button" id="buttonCreateHighScore" value="Create High Score"/><br />
+    <hr />
+</div>

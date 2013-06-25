@@ -1,0 +1,7 @@
+body { margin:0px; }
+
+.footer { margin-left:20px; }
+.cloudPanel {width:100%;min-height:200px;margin-left:20px;margin-top:20px;}
+.gamePanel {width:100%;min-height:200px;margin-left:20px;margin-top:20px;}
+.playerPanel {width:100%;min-height:200px;margin-left:20px;margin-top:20px;}
+.scorePanel {width:100%;min-height:200px;margin-left:20px;margin-top:20px;}

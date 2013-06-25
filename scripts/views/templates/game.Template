@@ -1,0 +1,5 @@
+<div class="gamePanel">
+        <input type="button" id="buttonGetGameInfo" value="Get Game Information" /><br />
+        <input type="button" id="buttonGetGamePlayers" value="Get Players" /><br />
+        <input type="button" id="buttonGetWealthiest" value="Get Highest Gold Amount" />
+</div>

@@ -1,0 +1,20 @@
+<div style="width:100%" class="yui3-skin-sam">
+    <div id="appmenu" class="yui3-menu yui3-menu-horizontal"><!-- Bounding box -->
+        <div class="yui3-menu-content" ><!-- Content box -->
+            <ul>
+                <li>
+                <a class="yui3-menu-label"  id="menuGame" href="#game">Game</a>
+                </li>
+                <li>
+                    <a class="yui3-menu-label" id="menuPlayer" href="#player">Player</a>
+                 </li>
+                <li>
+                    <a class="yui3-menu-label" id="menuScore" href="#score">Score</a>
+                </li>
+                <li>
+                    <a class="yui3-menu-label" id="menuCloud" href="#cloud">Cloud</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

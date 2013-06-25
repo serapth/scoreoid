@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Scoreoid HTML5 demo application -- GameFromScratch.com</title>
+</head>
+<body class="yui3-skin-sam">
+
+
+<script src="http://yui.yahooapis.com/3.10.3/build/yui/yui-min.js"></script>
+<script src="scripts/config.js"></script>
+<link rel="Stylesheet" href="/stylesheets/style.css" />
+
+<script>
+    YUI().use('app','editorView','datatype-xml', function (Y) {
+
+        //Global Y variables
+        Y["SCOREOID_KEY"] = "bde61648959d0c364b04b93e257035abd5ee3b26";
+        Y["GAME_ID"] = "3e99cf43ab";
+
+        var app = new Y.App({
+            views: {
+                editorView: {type: 'EditorView'}
+            }
+        });
+
+        app.route('*', function () {
+            this.showView('editorView');
+        });
+
+        app.render().dispatch();
+    });
+</script>
+
+
+</body>
+</html>

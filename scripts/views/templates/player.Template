@@ -1,0 +1,52 @@
+<div class="playerPanel">
+    <h4>Create a new player</h4>
+    Player Name:<input type="text" value="" id="playerName" /><input type="button" id="buttonCreatePlayer" value="Create Player" /><br />
+    <hr />
+    <h4>Retrieve all players</h4>
+    <input type="button" id="playerGetAll" value="Get All Players" /><br />
+    <hr />
+    <h4>Get or modify a single player field value</h4>
+    Players:<select id="playersCombo"></select>
+    Field:<select id="fieldCombo">
+        <option>username</option>
+        <option>unique_id</option>
+        <option>first_name</option>
+        <option>last_name</option>
+        <option>email</option>
+        <option>bonus</option>
+        <option>achievements</option>
+        <option>gold</option>
+        <option>money</option>
+        <option>kills</option>
+        <option>lives</option>
+        <option>time_played</option>
+        <option>unlocked_levels</option>
+        <option>unlocked_items</option>
+        <option>inventory</option>
+        <option>last_level</option>
+        <option>current_level</option>
+        <option>current_time</option>
+        <option>current_bonus</option>
+        <option>current_kills</option>
+        <option>current_achievements</option>
+        <option>current_gold</option>
+        <option>current_unlocked_levels</option>
+        <option>current_unlocked_items</option>
+        <option>current_lives</option>
+        <option>xp</option>
+        <option>energy</option>
+        <option>boost</option>
+        <option>latitude</option>
+        <option>longtitude</option>
+        <option>game_state</option>
+        <option>platform</option>
+        <option>rank</option>
+        <option>best_score</option>
+        <option>created</option>
+        <option>updated</option>
+    </select>
+    <input type="text" value="" id="playerField" />
+    <input type="button" id="getPlayerField" value="Get Player Field" />
+    <input type="button" id="setPlayerField" value="Set Player Field" />
+    <div id="dataTable" />
+</div>
